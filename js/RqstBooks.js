@@ -1,7 +1,7 @@
-import { initializeApp } from '/Users/diwakarverma/Downloads/Minor project/node_modules/@firebase/app';
+import { initializeApp } from 'firebase/app';
 import {
  getFirestore, collection, getDocs, getDatabase
-} from '/Users/diwakarverma/Downloads/Minor project/node_modules/@firebase/firestore'
+} from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: "AIzaSyBRNHN4-796R_PV72zvE9n8FfNtQPIZfRM",
